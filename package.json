@@ -1,0 +1,19 @@
+{
+  "name": "gramma_slideshow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "express": "^4.14.0",
+    "jquery": "^3.1.0",
+    "owl.carousel": "^2.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Joette Poehler",
+  "license": "ISC"
+}

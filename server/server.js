@@ -3,7 +3,7 @@ var app = express();
 var path = require("path");
 var data = require("./public/data/gramma");
 
-app.set("port", (process.env.PORT || 5000));
+app.set("port", (process.env.PORT || 3000));
 
 app.get("/data", function(req,res){
     res.send(data);
@@ -15,4 +15,5 @@ app.get("/*", function(req,res){
 });
 
 app.listen(app.get("port"), function(){
-    console.log("Server up and running on Port", 5000);
+    console.log("Server up and running on Port", 3000);
+});

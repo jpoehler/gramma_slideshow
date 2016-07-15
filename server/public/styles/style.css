@@ -1,12 +1,14 @@
-h1 {
-  text-align: center;
+body {
+  background-color: black;
 }
-
-#slideshow .item{
-  margin: 3px;
+h1 {
+  font-family: 'Sofia', cursive;
+  text-align: center;
+  color: white;
 }
 #slideshow .item img{
   display: block;
-  width: 100%;
-  height: auto;
+  margin: 0 auto;
+  width: auto;
+  height: 600px;
 }
